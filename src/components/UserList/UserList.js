@@ -10,6 +10,8 @@ const UserList = () => {
 
   // Estado para almacenar nuestro texto de filtrado
   const [filter, setFilter] = React.useState("");
+
+  // filterWithTime tendrá el valor de filter pero con retardo
   const [filterWithTime] = useDebounce(filter, 1000);
 
   React.useEffect(() => {
