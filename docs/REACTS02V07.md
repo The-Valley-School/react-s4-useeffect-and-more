@@ -8,11 +8,11 @@ Aprovechando la API pública de Google:
 
 Vamos a crear una página web que muestre un formulario de búsqueda como el siguiente:
 
-![captura-1.png](docs/assets/captura-1.png)
+![captura-1.png](/docs/assets/captura-1.png)
 
 Cuando introduzcamos más de 3 caracteres se realizará una búsqueda llamando a la api de Google y se mostrarán los resultados de la siguiente manera:
 
-![captura-2.png](docs/assets/captura-2.png)
+![captura-2.png](/docs/assets/captura-2.png)
 
 Ya habrás notado que en este ejercicio la parte de maquetación no debe llevarte mucho tiempo, lo importante es centrarse en el uso de UseEffect y UseState. 
 
