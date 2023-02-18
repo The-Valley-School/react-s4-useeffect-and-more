@@ -4,7 +4,7 @@ En esta ocasión vamos a realizar un buscador de libros, como si de una tienda o
 
 Aprovechando la API pública de Google:
 
-[https://www.googleapis.com/books/v1/volumes?q=Prueba](https://www.googleapis.com/books/v1/volumes?q=Prueba)
+<https://www.googleapis.com/books/v1/volumes?q=Prueba>
 
 Vamos a crear una página web que muestre un formulario de búsqueda como el siguiente:
 
@@ -23,6 +23,6 @@ Ten en cuenta lo siguiente:
 - Recuerda hacer uso de debounce para no hacer una petición cada vez que pulsamos una letra
 - Intenta componetizar lo máximo posible, por ejemplo puedes hacer la tabla un componente (BookTable) o incluso cada fila de la tabla podría ser un componente propio (BookTableRow)
 - Evita llamar a la API de google sin texto de búsqueda o te dará error, por ejemplo:
-[https://www.googleapis.com/books/v1/volumes?q=](https://www.googleapis.com/books/v1/volumes?q=)
-[https://www.googleapis.com/books/v1/volumes](https://www.googleapis.com/books/v1/volumes)
+<https://www.googleapis.com/books/v1/volumes?q=>
+<https://www.googleapis.com/books/v1/volumes>
 Estas peticiones te darán un error 400

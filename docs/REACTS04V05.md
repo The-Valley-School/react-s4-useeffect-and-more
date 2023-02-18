@@ -4,7 +4,7 @@ Vamos a empezar a programar funcionalidades algo más divertidas 🙂
 
 En este video haremos una llamada a una API para mostrar un listado de usuarios:
 
-[https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users?name_like=Leanne)
+<https://jsonplaceholder.typicode.com/users?name_like=Leanne>
 
 De esta forma mostraremos un ejemplo del uso de `UseEffect` y también aprenderemos a usar el map de JSX para pintar los elementos de un array.
 

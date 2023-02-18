@@ -4,13 +4,13 @@ Vamos a seguir completando el ejemplo anterior, en este caso mejorándolo.
 
 En este video crearemos un pequeño buscador de usuarios que hará uso del parámetro de filtrado `name_like` de la API que ya conocemos:
 
-[https://jsonplaceholder.typicode.com/users?name_like=Leanne](https://jsonplaceholder.typicode.com/users?name_like=Leanne)
+<https://jsonplaceholder.typicode.com/users?name_like=Leanne>
 
 Para no realizar una llamada con cada pulsación en el teclado, instalaremos un Hook custom de React, en este caso usaremos `use-debounce` que nos permitirá escuchar los cambios en un input, pero con cierto retardo para no hacer demasiadas llamadas a la API.
 
 Te dejamos el enlace del paquete npm por aquí:
 
-[https://www.npmjs.com/package/use-debounce](https://www.npmjs.com/package/use-debounce)
+<https://www.npmjs.com/package/use-debounce>
 
 Si te fijas `useDebaunce` recibe el valor a escuchar (`filter` en nuestro caso) y el tiempo mínimo que queremos que pase entre cada cambio (`1000` milisegundos en nuestro caso que equivale a 1 segundo):
 
