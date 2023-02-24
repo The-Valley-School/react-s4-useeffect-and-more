@@ -26,3 +26,7 @@ Ten en cuenta lo siguiente:
 <https://www.googleapis.com/books/v1/volumes?q=>
 <https://www.googleapis.com/books/v1/volumes>
 Estas peticiones te darán un error 400
+
+Recuerda que el código que hemos visto durante los vídeos puedes encontrarlo en el siguiente repositorio:
+
+<https://github.com/The-Valley-School/react-s4-useeffect-and-more>

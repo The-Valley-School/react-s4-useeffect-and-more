@@ -34,3 +34,7 @@ React.useEffect(() => {
 ```
 
 Esto nos genera una nueva variable o estado, que hemos llamado `filterWithTime` y que podremos utilizar como dependencia de nuestro `UseEffect`
+
+Recuerda que el código que hemos visto durante los vídeos puedes encontrarlo en el siguiente repositorio:
+
+<https://github.com/The-Valley-School/react-s4-useeffect-and-more>
